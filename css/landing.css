@@ -1,0 +1,21 @@
+.checklist {
+    list-style-image: url(../img/check-green.svg);
+    list-style-position: inside;
+}
+.subheader {
+    font-size: 1.3rem;
+    font-family: 'Lato';
+}
+.floating-label-form-group {
+    border-bottom: none; }
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+    background-color: white;
+    padding-left: 15px;
+}
+.btn-primary {
+    background-color: #fd4703;
+    border-color: #fd4703; }
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background-color: #b32401;
+    border-color: #b32401; }
