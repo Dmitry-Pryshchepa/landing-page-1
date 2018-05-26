@@ -3,8 +3,11 @@ body {
 }
 header.masthead h2 {
     font-family: 'Lato', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; }
-.checklist {
+.checklist-primary {
     list-style-image: url(../img/check-green.svg);
+    list-style-position: inside;
+}
+.checklist {
     list-style-position: inside;
 }
 .subheader {
@@ -24,3 +27,33 @@ header.masthead h2 {
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background-color: #b32401;
     border-color: #b32401; }
+.portfolio {
+    margin-bottom: -15px; }
+.portfolio .portfolio-item-away {
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    margin-bottom: 15px; }
+.portfolio .portfolio-item-away .portfolio-item-caption {
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    opacity: 0;
+    background-color: rgba(24, 188, 156, 0.9); }
+.portfolio .portfolio-item-away .portfolio-item-caption:hover {
+    opacity: 1; }
+.portfolio .portfolio-item-away .portfolio-item-caption .portfolio-item-caption-content {
+    font-size: 1.5rem; }
+@media (min-width: 576px) {
+    .portfolio {
+        margin-bottom: -30px; }
+    .portfolio .portfolio-item-away {
+        margin-bottom: 30px; }
+}
+@media (min-width: 992px) {
+    #mainNav .navbar-brand.remove-on-desktop {
+        display:none; }
+}
+.masthead {
+    padding-top: calc(6rem + 72px);
+    padding-bottom: 6rem; }
