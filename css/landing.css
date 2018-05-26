@@ -57,3 +57,7 @@ header.masthead h2 {
 .masthead {
     padding-top: calc(6rem + 72px);
     padding-bottom: 6rem; }
+.carousel-thumbs .list-inline-item {
+    max-width: 18.55%;
+    margin-top: 10px;
+}
